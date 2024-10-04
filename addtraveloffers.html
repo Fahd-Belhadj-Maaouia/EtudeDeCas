@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheettravels.css">
+    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Travel Offer</title>
+    
+</head>
+<body>
+    <h1>Add a Travel Offer</h1>
+    <form id="voyageForm">
+        <label for="titre">Title:</label>
+        <input type="text" id="titre" name="titre" placeholder="Enter the offer title" required minlength="3" title="enter title">
+        <br>
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" placeholder="Enter the destination" pattern="[a-zA-Z\s]{3,}" required title="enter destination">
+        <br>
+        <label for="depart">Departure Date:</label>
+        <input type="date" id="depart" name="depart" required title="enter date1">
+        <br>
+
+        <label for="retour">Return Date:</label>
+        <input type="date" id="retour" name="retour" required title="enter date2">
+        <br>
+
+        <label for="prix">Price:</label>
+        <input type="number" min="0" step="0.01" id="prix" name="prix" placeholder="Enter the price" required title="enter price">
+        <br>
+
+        <label for="disponibilite">Availability:</label>
+        <input type="checkbox" id="disponibilite" name="disponibilite" title="enter disponibility">
+        <br>
+
+        <label for="categorie">Category:</label>
+        <select id="categorie" name="categorie" required>
+            <option value="" disabled selected>Select a category</option>
+            <option value="plage">Beach</option>
+            <option value="aventure">Adventure</option>
+            <option value="culture">Culture</option>
+            <option value="croisiere">Cruise</option>
+        </select>
+        <br>
+        <button id="submit">Add Offer</button>
+    </form>
+
+
+</body>
+</html>

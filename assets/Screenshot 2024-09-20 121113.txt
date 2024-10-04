@@ -1,0 +1,2 @@
+A travel agency specializing in customized holidays wants to modernize its online booking system. Currently, customers have to contact the agency by phone or e-mail to book their trips, resulting in delays and
+inefficiencies. The agency needs an online solution that will enable customers to browse offers, personalize their trips and book autonomously.
